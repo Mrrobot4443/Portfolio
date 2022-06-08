@@ -1,0 +1,30 @@
+.menu .nav-item {
+    padding: 0 7px;
+}
+
+.icons .nav-item {
+    padding: 0;
+}
+
+.nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.active::after {
+    content: '.';
+    font-size: 4em;
+    position: relative;
+    top: -65px;
+    left: 29px;
+    color: red;
+}
+
+.active .nav-link {
+    color: red;
+}

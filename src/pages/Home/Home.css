@@ -1,0 +1,78 @@
+h1 {
+    font-size: 6em !important;
+    font-family: 'Amiri', serif;
+    ;
+}
+
+.space {
+    display: block;
+    height: 9rem;
+}
+
+.middle {
+    margin-top: 200px !important;
+}
+
+.mn {
+    font-size: 4.5rem;
+    left: 20px;
+}
+
+h6 {
+    left: 15px;
+}
+
+hr {
+    border-top: 3px solid black !important;
+    opacity: 100% !important;
+}
+
+h2 {
+    font-size: 4em !important;
+    font-family: 'Amiri', serif;
+}
+
+.img-boots {
+    padding: 75px 38px;
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+
+.barlogos img {
+    justify-content: center;
+}
+
+.icons-middle img {
+    margin-left: 100px;
+}
+
+.space2 {
+    height: 5rem;
+}
+
+.pspace p {
+    padding-top: 25px;
+    font-family: 'Amiri', serif;
+    font-size: 1.3em;
+}
+
+.pspace h5 {
+    opacity: 50%;
+}
+
+.image-z {
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    width: 50px;
+    top: 0;
+}
+
+.imagelayer {
+    width: 551px;
+    height: 640px;
+    bottom: 90px !important;
+    /* object-fit: cover; */
+    margin-bottom: 50px;
+    position: relative;
+}
