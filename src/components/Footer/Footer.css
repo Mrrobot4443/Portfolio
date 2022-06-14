@@ -1,0 +1,49 @@
+.footer {
+    padding-top: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer_containe {
+    row-gap: 3.5rem;
+}
+
+.footer-bg {
+    padding: 2em 0 3em;
+}
+
+.footer-titel {
+    font-size: large;
+    margin-bottom: 0 25;
+}
+
+.footer_subtitle {
+    font-size: large;
+    font-family: 'Amiri', sans serif;
+}
+
+.footer-links {
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-decoration: none !important;
+}
+
+.footer-link:hover {
+    color: rgb(231, 231, 231);
+}
+
+.footer-social:hover {
+    color: rgb(231, 231, 231);
+}
+
+.footer-social {
+    font-size: 1.25rem;
+    margin-right: 25px
+}
+
+.footer-titel,
+.footer_subtitle,
+.footer-links,
+.footer-social {
+    color: black;
+}

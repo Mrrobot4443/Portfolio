@@ -1,0 +1,26 @@
+.item {
+    min-height: 40rem;
+    width: 33%;
+    padding: 40px;
+    margin-left: 80px;
+}
+
+.inner-carousel {
+    display: flex;
+}
+
+.item img {
+    pointer-events: none;
+    width: 700px;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.left-posi {
+    left: -30px;
+    bottom: 250px;
+    z-index: 999;
+}

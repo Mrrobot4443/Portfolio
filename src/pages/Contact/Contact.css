@@ -1,0 +1,51 @@
+.all {
+    bottom: 200px;
+    position: relative;
+    width: 100%;
+}
+
+label {
+    font-size: 1.5em;
+    font-family: 'Amiri', serif;
+}
+
+h5 {
+    font-size: 3em;
+    font-family: 'Amiri', serif;
+}
+
+h5.font {
+    font-size: 2.5em;
+    font-family: 'Amiri', serif;
+}
+
+hr {
+    opacity: 50% !important;
+}
+
+.long1 {
+    height: 32em;
+    width: 5px;
+    background-color: #030303;
+    bottom: 37px;
+    opacity: 60%;
+    left: 3em;
+}
+
+.imgrobot {
+    position: relative;
+    left: 11em;
+    width: 400px;
+}
+
+h4::before {
+    content: "";
+    height: 3px;
+    width: 90px;
+    display: block;
+    background-color: #eb83f8;
+    position: absolute;
+    top: 0;
+    left: -108px;
+    top: 11px;
+}

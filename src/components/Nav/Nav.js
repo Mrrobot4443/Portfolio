@@ -6,13 +6,15 @@ import { Link } from "react-router-dom";
 export default function Nav() {
     return (
         <>
-            <div className="row mt-5">
+           
+           <div>
+               <div className="row mt-2">
                 <div className="col-md-5">
                     <nav className='menu'>
                         <ul className="nav">
                             <li className="nav-item active">
                                 {/* <a href="" ">Home</a> */}
-                                <Link to ="/" className="nav-link">Home</Link>
+                                <Link to ="/" className="nav-link text-dark">Home</Link>
                             </li>
                             <li className="nav-item">
                             <Link to ="/Projects" className="nav-link">Projects</Link>
@@ -27,8 +29,8 @@ export default function Nav() {
                     </nav>
                 </div>
                 <div className="col-md-2">
-                    <div className="text-center">
-                        <h3>Logo Yacine</h3>
+                    <div className="text-center ">
+                        <img src="images/LogoYB.png" alt="" className='logo' />
                     </div>
                 </div>
                 <div className="col-md-5">
@@ -40,7 +42,7 @@ export default function Nav() {
                             <a href="" className="nav-link"><BsFacebook/></a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-link"><BsInstagram/></a>
+                            <a href="https://www.instagram.com/bessyassine/" className="nav-link"><BsInstagram/></a>
                         </li>
                         <li className="nav-item">
                             <a href="" className="nav-link"><BsGithub/></a>
@@ -48,7 +50,7 @@ export default function Nav() {
                     </ul>
                 </div>
             </div>
-            
+            </div> 
         </>
     )
 }

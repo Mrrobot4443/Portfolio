@@ -10,10 +10,11 @@
     color: black;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: larger;
 }
 
 .nav-link:hover {
-    color: red !important;
+    color: rgb(128, 195, 243) !important;
 }
 
 .active::after {
@@ -22,9 +23,28 @@
     position: relative;
     top: -65px;
     left: 29px;
-    color: red;
+    color: rgb(31, 119, 173);
 }
 
 .active .nav-link {
     color: red;
 }
+
+.logo {
+    width: 300px;
+    position: relative;
+    bottom: 110px;
+    left: 48px;
+}
+
+
+/* ul li link {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 5   px solid black;
+    border-bottom: 1px solid black;
+} */
