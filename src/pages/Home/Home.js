@@ -3,12 +3,13 @@ import "./Home.css";
 import "animate.css";
 import Typical from "react-typical";
 import { motion } from "framer-motion";
-
+import CountUp from 'react-countup';
 import { Parallax } from "react-parallax";
 
 function Home() {
   return (
     <>
+   
       <div className="row  ">
         <div className="col-md-12 intro">
           {""}
@@ -66,19 +67,19 @@ function Home() {
               Months OF <br />
               EXPERIENCE
             </h5>
-            <p className="space mn  position-relative">2</p>
+            <p className="space mn  position-relative"> <CountUp end={2} /></p>
             <div>
               <h5 className=" position-relative">
                 SATISFITATION <br /> CLIENTS
               </h5>
-              <p className="space mn position-relative">100%</p>
+              <p className="space mn position-relative"> <CountUp end={100}/>%</p>
             </div>
 
             <div className="">
               <h5 className=" position-relative">
                 PROJECTS <br /> DONE
               </h5>
-              <p className="space mn  position-relative">2</p>
+              <p className="space mn  position-relative"> <CountUp end={2} /></p>
             </div>
           </div>
         </div>
@@ -177,6 +178,9 @@ function Home() {
         </div>
         <div className="row text-white ">
           <div className="col-md-4 pspace card ">
+            <div>
+
+            </div>
             <h5 className="space2">2017-2020</h5>
 
             <p>
@@ -301,7 +305,7 @@ function Home() {
           </div>
           <div className="col-md-4  px-2 py-2 ">
             <video
-              src="images/fish & ships.mp4"
+              src="images/vid5.mkv"
               playsInline
               autoPlay
               muted

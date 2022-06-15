@@ -4,6 +4,7 @@ import { Parallax } from "react-parallax";
 import img1 from '../Blog/images/4.JPG';
 import img2 from '../Blog/images/1.JPG';
 import img3 from '../Blog/images/wait-img.jpg';
+import img4 from '../Blog/images/6.JPG';
 
 
 function Blog() {
@@ -25,16 +26,12 @@ function Blog() {
           <div className="text-content">Inspiration</div>
         </div>
       </Parallax>
-      <Parallax strength={300} bgImage={img3}>
+      <Parallax strength={300} bgImage={img4}>
         <div className="content">
           <div className="text-content">Inspiration</div>
         </div>
       </Parallax>
-      <Parallax strength={300} bgImage={img3}>
-        <div className="content">
-          <div className="text-content">Inspiration</div>
-        </div>
-      </Parallax>
+      
     </div>
   );
 }

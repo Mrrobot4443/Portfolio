@@ -32,7 +32,7 @@ function Footer() {
 
                     </div>
                     <div className="col-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, fuga molestiae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, fuga molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem veritatis mollitia, animi hic expedita consequatur repellendus similique deleniti amet iste consequuntur quaerat necessitatibus nesciunt, aperiam, exercitationem beatae perferendis a laborum. Doloribus ea modi distinctio sunt inventore autem nisi vel ipsa quaerat non. Atque dignissimos praesentium nisi dolore, aut totam.</div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 text-uppercase">
                         <ul className="footer-links list-unstyled  text-dark ">
                             <li><a href="/Contact" className="footer-link text-light fs-5 fw-bolde">Contact</a></li>
                             <li><a href="/Blog" className="footer-link text-light fs-5 fw-bolde">Blog</a></li>

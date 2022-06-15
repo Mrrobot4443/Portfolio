@@ -166,3 +166,7 @@
     .btn-dange {
         margin-left: 570px;
     }
+    
+    .row .card {
+        box-shadow: inset 5px 5px 5px rgb(165, 224, 252), inset -5px -5px 15px rgb(201, 234, 250), 5px 5px 15px rgb(133, 214, 255), -5px -5px 15px rgb(133, 214, 255)
+    }
