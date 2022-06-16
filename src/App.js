@@ -7,34 +7,29 @@ import Nav from './components/Nav/Nav';
 import Projects from './pages/Projects/Projects'
 import Footer from './components/Footer/Footer'
 import Blog from './pages/Blog/Blog'
-import React, {useState} from 'react'
-const APp = () => {
-  const [darkMode, setDarkMode] = useState(false);
+import React, {useEffect, useState} from 'react'
+import PacmanLoader from "react-spinners/PacmanLoader";
 
-return (
-  <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-      <div className='container'>
-          <span style={{ color: darkMode ? 'grey': 'yellow'}}>Light</span>
-          <div className='switch-checkbox'>
-              <label className='switch'>
-              <input type='checkbox' onChange={() => setDarkMode(!darkMode)} />
-              <span className='round slider'></span>
-              </label>
-          </div>
-          <span style={{ color: darkMode ? '#c69dfd' : 'grey'}}>Dark</span>
-      </div>
-      <h2>{ darkMode? 'Dark' : 'Light'} Mode</h2>
-  </div>
-)
-}
 
 function App() {
-  
-  return (
+  const [loading , setLoading] = useState(false)
+
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+        setLoading(false)
+    },2000)
+  }, [])
+return (
+
     <>
-    <body>
-      
-    
+    {
+        loading ? 
+        <div className='loader'>
+        <PacmanLoader color={'#3B90FC'} loading={loading} size={100} />
+          </div>
+        :
+  
     <div className="container">
       <Nav/>
     
@@ -50,11 +45,11 @@ function App() {
       
       <Footer/>
     </div>
-    
-      
-    </body>
+
+}
     </>
   );
+  
 }
 
 export default App;

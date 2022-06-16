@@ -1,5 +1,6 @@
     * {
         font-family: 'Amiri', serif;
+        /* overflow-y: hidden; */
     }
     
     h1 {
@@ -66,6 +67,7 @@
     
     .img-boots img:hover {
         filter: grayscale(0);
+        animation-play-state: running;
     }
     
     .experience {
@@ -155,18 +157,22 @@
         width: 100%;
     }
     
-    .img-puzzle {
-        transition: transform .2s;
-    }
-    
-    .img-puzzle :hover {
-        transform: scale(0.5);
-    }
-    
     .btn-dange {
         margin-left: 570px;
     }
     
     .row .card {
+        position: relative;
         box-shadow: inset 5px 5px 5px rgb(165, 224, 252), inset -5px -5px 15px rgb(201, 234, 250), 5px 5px 15px rgb(133, 214, 255), -5px -5px 15px rgb(133, 214, 255)
+    }
+    
+    .row .card .box {
+        background-color: rgba(124, 207, 255, 0.448);
+        top: 10px;
+        border: 2px 2px 0 solid rgb(62, 177, 219);
+    }
+    
+    .row .card :hover {
+        transform: translateY(-20px);
+        box-shadow: 0 40px 70px rgb(18, 109, 173);
     }

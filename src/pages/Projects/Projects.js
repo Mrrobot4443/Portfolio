@@ -3,100 +3,16 @@ import "./Projects.css";
 function Projects() {
   return (
     <>
-      
-        <div className="">
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/preject3.mkv"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2 ">
-            <video
-              src="images/fish & ships.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/vid2.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-              style={{width:600 }}
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/preject3.mkv"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2 ">
-            <video
-              src="images/fish & ships.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/vid2.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/preject3.mkv"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2 ">
-            <video
-              src="images/fish & ships.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-          <div className="col-md-4  px-2 py-2">
-            <video
-              src="images/vid2.mp4"
-              playsInline
-              autoPlay
-              muted
-              loop
-              typeof="mp4"
-            ></video>
-          </div>
-        </div>
+      <div className="video-sec">
+       
+        <video
+                src="images/preject3.mkv"
+                className=""
+              ></video>
+       <div className="overlay">
+              <p>fish</p>
+              </div>
+      </div>
      
     </>
   );

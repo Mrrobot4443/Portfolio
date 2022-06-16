@@ -9,6 +9,8 @@ function Footer() {
     return (
         <>
             
+<div className="container">
+
 
 
             <footer className="footer m-5">
@@ -82,7 +84,7 @@ function Footer() {
       <div className="content"></div>
     </div> */}
 
-
+</div>
         </>
     )
 

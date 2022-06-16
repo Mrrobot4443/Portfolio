@@ -2,3 +2,10 @@ body {
     background-image: linear-gradient(rgb(246, 239, 235), rgb(91, 188, 233));
     padding: 20px;
 }
+
+.loader {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}

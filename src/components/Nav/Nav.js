@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 export default function Nav() {
     return (
         <>
-           
+           <div className="container">
+
+        
            <div>
                <div className="row mt-2">
                 <div className="col-md-5">
@@ -51,6 +53,7 @@ export default function Nav() {
                 </div>
             </div>
             </div> 
+            </div>
         </>
     )
 }
